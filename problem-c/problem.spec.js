@@ -8,7 +8,7 @@ expect.extend({toMatchImageSnapshot});
 
 const Canvas = require('canvas-prebuilt');
 //mock the query method to access our canvas
-document['getElementById'] = jest.fn(() => new Canvas(500,500));
+document['getElementById'] = jest.fn(() => Canvas.createCanvas(500,500));
 
 const jsPath = __dirname + '/js/index.js';
 
