@@ -54,7 +54,8 @@ let huskyGames2016 = [
 //Log out the array of lost games.
 
 
-//Log out an array of opponents that UW lost to.
+//Log out an array of opponents that UW lost to. Hint: Use the `.map()` method 
+//to extract the opponent names!
 
 
 //Use a `forEach()` loop to log out each of the games UW lost, each on its own 
@@ -95,11 +96,12 @@ let huskyGames2016 = [
 //function should then return this new function.
 
 
-//Create a variable `fumbledAndLostFilter` which is a _function_ created by 
-//calling the `makeCombinedFilter()` function and passing two callback functions: 
+//Create a variable `fumbledAndLostFilter` which is the result of calling the 
+//`makeCombinedFilter()` function and passing two callback functions: 
 //one for filtering for games UW lost (e.g., the `huskiesLost()` function), and 
 //one for filtering for games with fumbles (this can be a named or an anonymous
 //callback like you used earlier).
+//Note that `fumbledAndLostFilter` _is_ a function!
 
 
 //Create an array of games that UW lost with fumbles. Use the 
